@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Lifeline &mdash; A  portfolio for our university project "Lifeline"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javascript, jquery">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="index.html#home-section" class="nav-link">Home</a>
+                </li>
+                <li><a href="index.html#about-section" class="nav-link">About</a></li>
+                <li><a href="index.html#testimonial-section" class="nav-link">Story</a></li>
+                <li><a href="index.html#services-section" class="nav-link">Features</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Lifeline<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="index.html#skills-section" class="nav-link">Programs</a></li>
+                <li><a href="index.html#portfolio-section" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#journal-section" class="nav-link active">Journal</a></li>
+                <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax overlay" style="background-image: url('images/mon.png');">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-8 mx-auto text-center">
+              <h1 class="blog-heading" data-aos="fade-up" data-aos-delay="0">Unity</h1>
+              <div class="post-meta" data-aos="fade-up" data-aos-delay="100">By Jona &bullet; 6 mins read</div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- dov -->
+        <a href="#blog-single-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+      <div class="unslate_co--section" id="blog-single-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <h3 class="mb-4">The hardships of development</h3>
+              <p>During planning we obviously had to make sure everything we had set out to do was actually feasible to accomplish in the timeframe.
+                First off, we had to choose an engine. From the ground up is unreasonable and time intensive these days, so instead we chose Unity as the preferred game engine, as I’ve already had experience using it from my internship semester, as well as personal projects, so it seemed like the smartest pick. </p>
+              <p><img src="images/article_picture01.png" alt="Image" class="img-fluid"></p>
+              <p>While I’ve tried my hand at platformers and top-down shooters, I’ve never programmed a chat simulator before. Since we wanted the dialogue to be flexible and easy to rearrange, it would take a lot of work to create this kind of dialogue system from scratch. </p>
+              <p>I already knew that the company I interned at, as well as other indie studios, used a Unity plugin called Yarn Spinner to manage their dialogue, and it would probably be faster to learn how to adapt code around it than to try to create our own system.</p>
+              <p>While it was definitely the right decision to use Yarn Spinner to manage our dialogue, as it made writing it much easier, as well as creating different points in the dialogue to jump to a lot smoother, it had complications nonetheless.</p>
+              <p><img src="images/article_picture02.png" alt="Image" class="img-fluid"></p>
+              <p>The biggest issue we ran into was communicating between regular C# code (which Unity uses) and Yarn code (which the plugin uses within the dialogue system). This required a lot of research into the inner workings of the plugin, as well as direct communication with the developers of Yarn Spinner, so we could get the chat system set up just how we wanted. </p>
+              <p>The ability to assign different chapters within the dialogue made the writing and planning process less of a headache as well. </p>
+              <p>After a lot of fiddling around, we finally figured out how the rest of the code can interact with the dialogue, and vice versa. This made the subsequent process of implementing new features, such as creating new minigame windows that would be openable at a certain point in the story, a lot easier.</p>
+              <p><img src="images/article_picture03.png" alt="Image" class="img-fluid"></p>
+              <p>Triggering these events through the dialogue went very smoothly after the initial learning curve.
+                Some bumps arose, such as creating working old-school mp3 player.
+                Even things such as unsuspecting things like an old digital display of the song’s timer, which would just move around each time if done as a single text object, had to be split up into 4 unique text elements, each displaying only a single digit of the song’s time, to maintain the illusion.</p>
+                <p><img src="images/article_picture04.png" alt="Image" class="img-fluid"></p>
+                <P>Others, like the puzzle minigame I wasn’t quite sure of how to make the image hot-swappable depending on the ingame rating you were given, as I had originally planned to already have the pieces separated before starting the puzzle.
+                  Thankfully I found out that you can assign coordinates of the image onto different meshes, which would remember their original position, and then get shuffled around.</P>
+                <p>Bigger difficulties aside, we also ran into smaller problems like having objects display an outline on mouse over, such as during the point & click minigame were also new problems we had to find solutions for, but they were manageable enough.</p>
+                <P>Overall, it was a great learning experience and I thoroughly enjoyed having such freedom over the topic and what we wanted to present.</P>
+
+              <div class="pt-5 categories_tags ">
+                <p>Categories:  <a href="#">Programming</a>, <a href="#">Game</a>  Tags: <a href="#">#lifeline</a>, <a href="#">#unity</a></p>
+              </div>
+
+              <div class="post-single-navigation d-flex align-items-stretch">
+                <a href="blog-single-2.html" class="mr-auto w-50 pr-4">
+                  <span class="d-block">Previous Post</span>
+                  How we came up with the title "Lifeline"
+                </a>
+                <a href="blog-single-4.html" class="ml-auto w-50 text-right pl-4">
+                  <span class="d-block">Next Post</span>
+                  How did we progress?
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      </div> 
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">Lifeline<span>.</span></a></div>
+
+              <ul class="footer-site-social">
+                <li><a href="https://www.hs-furtwangen.de/">HFU</a></li>
+                <li><a href="#">Game</a></li>
+              </ul>
+
+              <p class="site-copyright">
+                
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | Created by Marc & Jona <i class="icon-star"
+                  aria-hidden="true"></i> <a href="https://www.hs-furtwangen.de/" target="_blank">HFU University</a>
+              
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
